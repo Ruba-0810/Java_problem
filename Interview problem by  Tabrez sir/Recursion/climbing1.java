@@ -1,5 +1,5 @@
 /*
-USING ARRAY
+USING RECURSION
 Input: n = 2
 Output: 2
 Explanation: There are two ways to climb to the top.
@@ -16,20 +16,17 @@ Explanation: There are three ways to climb to the top.
 */
 import java.util.*;
 class p1{
-    public static int climbing(int n){
-        int[] arr=new int[n+1];
-        arr[0]=1;
-        arr[1]=1;
-        for(int i=2;i<=n;i++){
-            arr[i]=arr[i-1]+arr[i-2];
+    public static int climbingNumber(int n){
+        if(n==1 || n==0){
+            return 1;
+        }else{
+            return climbingNumber(n-1)+climbingNumber(n-2);
         }
         
-        return arr[n];
     }
-    public static void main(String[] args){
+    public static void main(String []args){
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-       //OUTOUT IN ARRAY  int[] result= climbing(n);
-        System.out.println(climbing(n));
+        System.out.println(climbingNumber(n));
     }
 }
