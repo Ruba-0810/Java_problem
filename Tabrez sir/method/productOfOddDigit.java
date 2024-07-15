@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 class p1{
     public static void productOfOddNumber(int n){
         int fact=1;
@@ -10,10 +10,7 @@ class p1{
             }
         }
         System.out.println(fact);
-         System.out.println(product);
-        
-
-        
+         System.out.println(product); 
     }
      public static void main(String [] args){
         Scanner sc=new Scanner(System.in);
