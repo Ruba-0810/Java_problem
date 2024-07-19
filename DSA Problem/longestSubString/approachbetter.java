@@ -17,7 +17,6 @@ class p1{
         for(int i=0;i<n;i++){
             int sum=arr[i];
             int count=1;
-            //int max=0;
             
             for(int j=i+1;j<n;j++){
                 sum=sum+arr[j];
