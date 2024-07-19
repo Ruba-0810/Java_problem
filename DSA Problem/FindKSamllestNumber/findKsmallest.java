@@ -13,7 +13,7 @@ class p1{
         return arr[k-1];
     }
     public static void main(String[] args){
-        int[] arr={7, 10, 4, 3, 20, 15};//3 4
+        int[] arr={7, 10, 4, 3, 20, 15};//3 4 7 10 20 15
         int k=4;
         System.out.println(findkthSmallestElement(arr,k));
 
