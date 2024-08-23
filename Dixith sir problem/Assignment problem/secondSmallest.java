@@ -1,0 +1,3 @@
+/*
+.Find the second smallest Element in the given array.
+*/

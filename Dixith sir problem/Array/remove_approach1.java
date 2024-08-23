@@ -19,6 +19,7 @@ class p1{
     public static void main(String[] args){
         int[] arr={1,1,2,2,2,3,3};
         int n=arr.length;
-        System.out.println(linkedHashSetRemoveDuplicate(arr,n));
+         LinkedHashSet<Integer> result=linkedHashSetRemoveDuplicate(arr,n);
+         System.out.println(result);
     }
 }

@@ -1,0 +1,4 @@
+/*
+Calculate the sum of all elements in a given array and check 
+whether its even or odd if even return true if not false.
+*/

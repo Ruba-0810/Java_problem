@@ -19,7 +19,7 @@ class p1{
                 }
             }
 
-            if(j==k){
+            if(j==k){   
                 temp[k]=arr[i];
                 k++;
             }

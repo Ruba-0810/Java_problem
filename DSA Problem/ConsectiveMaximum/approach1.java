@@ -7,6 +7,7 @@ Output: 3
 
 Explanation: There are two consecutive 1’s and three consecutive 1’s in the array out of which maximum is 3.
 */
+
 import java.util.*;
 class p1{
     public static int consecutiveMaximum(int[] arr){
